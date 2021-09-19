@@ -28,7 +28,7 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭─「 %me 」
-│ Haai, %name!
+│ Hello dear, %name!
 │
 │ remaining *%limit Limit*
 │ Level *%level (%exp / %maxexp)* [%xp4levelup again for levelup]
@@ -43,6 +43,19 @@ const defaultMenu = {
 │ 
 │ 
 ╰────
+
+
+╭─「 Rules 」
+│ 1.Don't Spam Bot
+│
+│ 2.Don't Call Bot 
+│   Call = Block
+│ 
+│ Bot GC: https://tinyurl.com/bb8zhpm9
+│ 
+│ 
+╰────
+
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
